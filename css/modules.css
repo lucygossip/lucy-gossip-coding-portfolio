@@ -1,0 +1,125 @@
+/*----- 1. HEADER AND NAVBAR -----*/
+header h1, header h2 {
+    text-align: center;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--white);
+    margin-bottom: 50px;
+}
+nav img {
+    margin: 20px;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+    margin: 20px;
+}
+nav ul li a {
+    color: var(--green);
+}
+
+/*----- 2. COMPANY LOGO-----*/
+
+.company-logo {
+    width: 100px;
+}
+.company-logo img {
+    width: 100%;
+}
+
+/*----- 3. CARDS -----*/
+
+.card {
+    display: flex;
+    flex-flow: column;
+    margin: 50px;
+    border-radius: 10px;
+    background: var(--white);
+    overflow: hidden;
+    width: 20%;
+    min-width: 200px;
+    text-align: center;
+}
+.col figure {
+    margin: 0px;
+    margin-top: 20px;
+}
+.card figure {
+    margin: 0;
+}
+.card figcaption {
+    margin: 10px;
+}
+.card a {
+    padding: var(--link-padding);
+    color: var(--purple);
+    border-radius: 5px;
+    transition: 0.5s ease;
+}
+.card a:hover {
+    background: var(--pink);
+    color: var(--white);
+}
+.card p {
+    font-family: 'Roboto LightItalic', sans-serif;
+    font-size: 0.9rem;
+    margin: 10px 0;
+}
+.card p.small {
+    font-family: 'Roboto Regular';
+    font-size: 0.9rem;
+}
+
+/*----- 4. FORMS -----*/
+
+form {
+    width: 70%;
+    margin: 0 auto;
+    color: var(--white);
+}
+form fieldset {
+    border: 3px solid var(--white);
+}
+form fieldset legend {
+    padding: 5px 10px;
+    font-family: 'Roboto Black', sans-serif;
+    font-size: 40px;
+}
+form table {
+    width: 100%;
+    margin: auto;
+}
+form table td {
+    vertical-align: top;
+    padding: 10px 0;
+}
+form table td.td-left {
+    width: 10%;
+}
+form table td.td-right {
+    width: 90%;
+}
+form table td input, form table td textarea {
+    width: 100%;
+    padding: 5px;
+}
+form table td textarea {
+    resize: none;
+}
+button[type="submit"] {
+    padding: 10px 15px;
+    border-radius: 5px;
+    background: var(--white);
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+button[type="submit"]:hover {
+    background: var(--pink);
+    border-color: var(--pink);
+    color: var(--white);
+}

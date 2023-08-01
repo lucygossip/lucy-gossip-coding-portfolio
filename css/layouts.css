@@ -1,0 +1,57 @@
+/*----- 1. MAIN LAYOUT -----*/
+
+header {
+    flex: 0 1 auto;
+    margin-bottom: 50px;
+}
+main {
+    flex: 1 1 auto;
+}
+section {
+    margin: 0 15%;
+    padding: 20px;
+    background: var(--lightgray);
+}
+section:nth-child(2n) {
+    background: var(--darkgray);
+    color: var(--white);
+}
+section:last-child {
+    margin-bottom: 100px;
+}
+section.section-wide {
+    margin: 
+}
+footer {
+    flex: 0 1 auto;
+    text-align: center;
+}
+aside, picture {
+    width: 50%;
+}
+.col {
+    width: 50%;
+}
+.col figure {
+    margin: 0;
+}
+/*----- 2. FLEXBOXES -----*/
+
+div.flex {
+    display: flex;
+    gap: 20px;
+}
+div.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+div.flex.flex-center {
+    justify-content: space-between;
+}
+div.flex.flex-25 {
+    flex-direction: column;
+    width: 20%;
+    align-items: center;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+@media only screen and (max-width: 800px) {
+    div.flex {
+        flex-flow: column;
+    }
+    aside, picture {
+        width: 100%;
+    }
+    div.flex.flex-25 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+        gap: 0;
+    }
+    section {
+        margin: 0 5%;
+    }
+    section:last-child {
+        margin-bottom: 30px;
+    }
+}
