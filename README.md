@@ -1,6 +1,6 @@
 # Lucy Gossip - Coding Portfolio
 
-[Link: ](https://lucygossip.github.io/lucy-gossip-coding-portfolio/)
+[Click here to view my portfolio.](https://lucygossip.github.io/lucy-gossip-coding-portfolio/)
 
 ## About
 
