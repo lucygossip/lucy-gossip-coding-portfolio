@@ -141,4 +141,11 @@ a.small-a:hover {
     right: 5px;
     top: 5px;
 }
+.active {
+    color: #aa0000;
+}
+.active:hover {
+    background: transparent;
+    color: #aa0000;
+}
 /*----- 7. IDs -----*/

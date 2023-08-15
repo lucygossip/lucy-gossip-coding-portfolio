@@ -115,14 +115,14 @@ form table td input, form table td textarea {
 form table td textarea {
     resize: none;
 }
-button[type="submit"] {
+input[type="submit"] {
     padding: 10px 15px;
     border-radius: 5px;
     background: var(--white);
     cursor: pointer;
     transition: 0.5s ease;
 }
-button[type="submit"]:hover {
+input[type="submit"]:hover {
     background: var(--pink);
     border-color: var(--pink);
     color: var(--white);
