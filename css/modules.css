@@ -38,6 +38,7 @@ nav ul li a {
     display: flex;
     flex-flow: column;
     margin: 50px;
+    padding: 10px;
     border-radius: 10px;
     background: var(--white);
     overflow: hidden;
@@ -73,6 +74,9 @@ nav ul li a {
 .card p.small {
     font-family: 'Roboto Regular';
     font-size: 0.9rem;
+}
+.card h4 {
+    margin-top: 10px;
 }
 
 /*----- 4. FORMS -----*/

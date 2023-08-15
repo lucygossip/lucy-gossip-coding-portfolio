@@ -132,4 +132,9 @@ a.small-a:hover {
 .section-wide a:hover {
     color: var(--white);
 }
+.section-wide a.border-a {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+}
 /*----- 7. IDs -----*/

@@ -20,7 +20,7 @@ section:last-child {
     margin-bottom: 100px;
 }
 section.section-wide {
-    margin: 
+    position: relative;
 }
 footer {
     flex: 0 1 auto;
