@@ -88,6 +88,10 @@ section, section p {
     margin: 15px 0;
     line-height: 1.5rem;
 }
+blockquote {
+    font-style: italic;
+    font-size: 1.2rem;
+}
 
 /*----- 5. BORDERS -----*/
 
