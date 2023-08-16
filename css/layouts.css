@@ -30,10 +30,28 @@ aside, picture {
     width: 50%;
 }
 .col {
-    width: 50%;
+    width: auto;
 }
 .col figure {
     margin: 0;
+}
+.col-left {
+    background: #333;
+    color: #ccc;
+    padding: 10px 20px;
+    line-height: 1.3;
+}
+.col-left ul {
+    padding-left: 10px;
+}
+.col-left ul li {
+    margin-bottom: 10px;
+}
+.col-left h4 {
+    font-family: "Roboto Black";
+}
+.col-right {
+    flex-grow: 1;
 }
 /*----- 2. FLEXBOXES -----*/
 
